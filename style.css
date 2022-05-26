@@ -1,14 +1,13 @@
 .wrapper {
 	margin: auto;
-	width: 80%;
-	border: dashed 1px red;
+	width: 82%;
 }
 
 .header {
-	padding: 40px 0;
+	padding: 40px 0 38px 25px;
 	display: flex;
 	justify-content: space-between;
-	border: dashed 1px red;
+	margin-bottom: 192px;
 }
 
 .logo {
@@ -56,14 +55,37 @@
 	margin-right: 0;
 }
 
-.main-content__title {
+.main {
+	padding: 11px 56% 150px 25px;
+	background: url(img/image.svg) top right 10px no-repeat;
+}
+
+.main-text__title {
+	background: #ECF3FF;
+}
+
+.main__title {
 	font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+	margin: 0 0 36px 0;
 }
 
-.main-content__subtitle {
+.main__subtitle {
 	font: 22px/25px robotoregular, arial, helvetica, sans-serif;
+	margin: 0 200px 43px 0;
+
 }
 
-.main-content__button {
+.main__button {
+	display: inline-block;
 	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+	padding: 18px 25px;
+	color: #FFF;
+	background: #0056EC;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.main__button:hover {
+	opacity: .5;
+	transition: .5s;
 }
