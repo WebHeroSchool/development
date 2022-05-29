@@ -19,6 +19,7 @@
 .menu {
 	display: flex;
 	align-items: center;
+	margin-right: 30px;
 }
 
 .menu__item {
@@ -56,8 +57,9 @@
 }
 
 .main {
-	padding: 11px 56% 150px 25px;
-	background: url(img/image.svg) top right 10px no-repeat;
+	padding: 11px 56% 200px 25px;
+	background: url(img/image.svg) top right 40px no-repeat;
+	margin-bottom: 70px;
 }
 
 .main-text__title {
@@ -89,3 +91,23 @@
 	opacity: .5;
 	transition: .5s;
 }
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer_circle {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #C8DBFB;
+	opacity: 0.7;
+	margin-right: 4px;
+}
+
+@media (max-width: 1600px) {
+	
+}
+
