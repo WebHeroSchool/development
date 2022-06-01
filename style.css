@@ -7,7 +7,7 @@
 	padding: 40px 0 38px 25px;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 192px;
+	margin-bottom: 130px;
 }
 
 .logo {
@@ -57,13 +57,17 @@
 }
 
 .main {
-	padding: 11px 56% 200px 25px;
-	background: url(img/image.svg) top right 40px no-repeat;
+	padding: 71px 56% 200px 25px;
+	background: url(img/image.svg) top right 25px no-repeat;
 	margin-bottom: 70px;
 }
 
-.main-text__title {
-	background: #ECF3FF;
+.main-text__title {	
+background: #feffff;
+background: -moz-linear-gradient(top,  #feffff 0%, #ecf3ff 51%, #ffffff 98%);
+background: -webkit-linear-gradient(top,  #feffff 0%,#ecf3ff 51%,#ffffff 98%);
+background: linear-gradient(to bottom,  #feffff 0%,#ecf3ff 51%,#ffffff 98%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ffffff',GradientType=0 );
 }
 
 .main__title {
