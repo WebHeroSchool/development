@@ -37,7 +37,7 @@
 	content: "";
 	left: 0;
 	width: 0;
-	height: 3px;
+	height: 2px;
 	background: #0056EC;
 	opacity: 0;
 	transform: opacity .5s, width .5s;
@@ -76,9 +76,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
 }
 
 .main__subtitle {
-	font: 22px/25px robotoregular, arial, helvetica, sans-serif;
+	font: 22px/26px robotoregular, arial, helvetica, sans-serif;
 	margin: 0 200px 43px 0;
-
 }
 
 .main__button {
@@ -111,7 +110,113 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
 	margin-right: 4px;
 }
 
-@media (max-width: 1600px) {
-	
+
+@media (max-width: 1782px) {
+	.wrapper {
+		width: 72%;
+	}
+
+	.header {
+		padding: 42px 0 38px 28px;
+		margin-bottom: 80px;
+	}
+
+	.menu {
+		margin-right: 33px;
+	}
+
+	.menu__item {
+		font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+		margin-right: 25px;
+	}
+
+	.main {
+		padding: 18px 56% 76px 27px;
+		background: url(img/image1366.svg) top right 27px no-repeat;
+	}
+
+
+	.main__title {
+		font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+	}
+
+	.main__subtitle {
+		font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
+		margin: 0 40px 43px 0;
+	}
+
+	.main__button {
+		font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+		padding: 14px 20px;
+	}
 }
 
+
+@media (max-width: 1308px) {
+	.wrapper {
+		width: 96%;
+	}
+
+	.header {
+   		padding: 41px 0 38px 27px;
+    	margin-bottom: 81px;
+	}
+	
+	.menu {
+    	margin-right: 30px;
+	}
+
+	.main__subtitle {
+		margin: 0 40px 42px 0;
+	}
+
+}
+
+
+@media (max-width: 981px) {
+	.menu {
+		display: none;
+	}
+
+	.header {
+    	margin-bottom: 28px;
+   		padding: 24px 17px 0 16px;
+	}
+
+	.logo {
+		background: url('img/logomobile.svg') no-repeat;
+		width: 36px;
+	}
+
+	.main {
+		text-align: center;
+		padding: 72% 53px 0 60px;
+		background: url(img/image.svg) top center no-repeat;
+		background-size: 74%;
+	}
+
+	.main__title {
+		font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
+		margin-bottom: 31px;
+	}
+
+	.main__subtitle {
+		font: 500 16px/19px robotoregular, arial, helvetica, sans-serif;
+		margin: 0 0px 26px 0;
+	}
+
+	.main__button {
+		padding: 14px 23px;
+	}
+
+	.burger {
+		padding-top: 8px;
+	}
+
+	.burger_menu {
+		width: 25px;
+		height: 3px;
+		background: #0056EC;
+		margin-bottom: 4px;
+	}
+ }
