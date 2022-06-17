@@ -63,11 +63,11 @@
 }
 
 .main-text__title {	
-background: #feffff;
-background: -moz-linear-gradient(top,  #feffff 0%, #ecf3ff 51%, #ffffff 98%);
-background: -webkit-linear-gradient(top,  #feffff 0%,#ecf3ff 51%,#ffffff 98%);
-background: linear-gradient(to bottom,  #feffff 0%,#ecf3ff 51%,#ffffff 98%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ffffff',GradientType=0 );
+	background: #feffff;
+	background: -moz-linear-gradient(top,  #feffff 0%, #ecf3ff 51%, #ffffff 98%);
+	background: -webkit-linear-gradient(top,  #feffff 0%,#ecf3ff 51%,#ffffff 98%);
+	background: linear-gradient(to bottom,  #feffff 0%,#ecf3ff 51%,#ffffff 98%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ffffff',GradientType=0 );
 }
 
 .main__title {
@@ -88,6 +88,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
 	background: #0056EC;
 	text-decoration: none;
 	border-radius: 4px;
+	animation-name: move;
+  	animation-duration: 2s;
+  	animation-timing-function: ease-out;
+  	animation-delay: 1s;
+  	animation-direction: alternate;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+      opacity: 25%;
+  }
+  100% {
+      opacity: 100%;
+  }
 }
 
 .main__button:hover {
@@ -316,10 +331,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
   		visibility: visible;
   		left: 0;
 	}
-
-
-
-
 
 	.burger {
 		padding-top: 8px;
