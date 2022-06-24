@@ -242,8 +242,8 @@
 		margin: 0 0px 25px 0;
 	}
 
-	.main__button {
-		animation-name: none;
+	@keyframes move {
+  display: none;
 	}
 
 	#menu__toggle {
